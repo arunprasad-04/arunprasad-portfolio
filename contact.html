@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Social Media Links</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .social-media-section {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .social-media-section h1 {
+            font-size: 2.8rem;
+            margin-bottom: 25px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            border-radius: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            box-shadow: 0 4px 10px rgba(255, 126, 95, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-icon img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+        }
+
+        .social-icon::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            opacity: 0;
+            border-radius: 30px;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(255, 126, 95, 0.7);
+        }
+
+        .social-icon:hover::after {
+            opacity: 1;
+        }
+
+        .instagram {
+            background: linear-gradient(135deg, #e4405f, #f77737, #bc2a8d);
+            box-shadow: 0 4px 10px rgba(228, 64, 95, 0.5);
+        }
+
+        .linkedin {
+            background: linear-gradient(135deg, #0077b5, #005f8d);
+            box-shadow: 0 4px 10px rgba(0, 119, 181, 0.5);
+        }
+
+        .twitter {
+            background: linear-gradient(135deg, #1da1f2, #0d95e8);
+            box-shadow: 0 4px 10px rgba(29, 161, 242, 0.5);
+        }
+
+        .email {
+            background: linear-gradient(135deg, #d14836, #b5372d);
+            box-shadow: 0 4px 10px rgba(209, 72, 54, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="social-media-section">
+        <h1>Connect with Me</h1>
+        <div class="social-links">
+            <a href="https://www.instagram.com/__.arunnnn.___/?igsh=MXd0cnJpZDFkbGV3ZA%3D%3D#" target="_blank" class="social-icon instagram">
+                <img src="/profile card/instagram.png" alt="Instagram"> Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/arunprasad-m-315549286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon linkedin">
+                <img src="/profile card/linkedin-logo.png" alt="LinkedIn"> LinkedIn
+            </a>
+            <a href="https://github.com/arunprasad-04" target="_blank" class="social-icon twitter">
+                <img src="/profile card/GitHub-logo.png" alt="Twitter"> GitHub
+            </a>
+            <a href="mailto:arunprasadvanitha33@gmail.com" class="social-icon email">
+                <img src="/profile card/gmail.png" alt="Email"> Email Me
+            </a>
+        </div>
+    </div>
+</body>
+</html>
